@@ -9,8 +9,8 @@ from bardapi import BardCookies
 # Twilio credentials
 TWILIO_ACCOUNT_SID = 'AC4210b2b2167007571b29f0c1d2f85aef'
 TWILIO_AUTH_TOKEN = 'ef2d8a3d89962d974cc331ca159c9c29'
-TWILIO_PHONE_NUMBER = '+15075851845'
-RECIPIENT_PHONE_NUMBER = '+918374208661'
+TWILIO_PHONE_NUMBER = '
+RECIPIENT_PHONE_NUMBER = '
 
 # Load the model
 model = joblib.load('new_model.pkl')
@@ -46,8 +46,8 @@ def send_sms(message):
 
 # Initialize Bard API
 cookie_dict = {
-    "__Secure-1PSID": "fghCZzW7ujIjVv6W84Mr5vm1v9l7Rt8PTSZfWdcda_3X5tmFXHuje82b1XIHD9keCZoYsA.",
-    "__Secure-1PSIDTS": "sidts-CjEBPVxjSh4TjN2-NkrDtQn7DVfVQVgvwEwy0dX49Xdxb3_cZF8mygKv8LyKLfbHOcPUEAA",
+    "__Secure-1PSID": 
+    "__Secure-1PSIDTS": 
     # Any cookie values you want to pass session object.
 }
 bard = BardCookies(cookie_dict=cookie_dict)
